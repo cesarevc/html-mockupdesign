@@ -1,0 +1,17 @@
+body{
+    background: url('../img/sun.jpg');
+    background-attachment: fixed;
+    background-position: left;
+}
+
+#logo{
+    background: #CA3413;
+}
+
+#menu ul li:hover{
+    background: #CA3413;
+}
+
+.button-more{
+    background: #CA3413;
+}

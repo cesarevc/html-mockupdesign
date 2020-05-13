@@ -8,13 +8,6 @@
     clear: both;
 }
 
-body{
-    background: url('../img/stars.jpg');
-    background-attachment: fixed;
-    background-position: left;
-}
-
-
 #global{
     width: 70%;
     margin: 0px auto;
@@ -29,7 +22,7 @@ body{
     font-size: 30px;
     letter-spacing: 4px;
     line-height: 80px ;
-    background: #235E3D;
+    /* background: #235E3D; */
     color: whitesmoke;
     text-align: center;
     height: 80px;
@@ -55,9 +48,9 @@ body{
     transition: all 300ms;
 }
 
-#menu ul li:hover{
+/* #menu ul li:hover{
     background: #235E3D;
-}
+} */
 
 #menu a{
     display: block;
@@ -100,7 +93,7 @@ body{
     text-align: center;
     display: block;
     padding: 15px;
-    background: #235E3D;
+    /* background: #235E3D; */
     color: whitesmoke;
     text-decoration: none;
     margin-top: 10px;
@@ -170,4 +163,38 @@ footer{
 /* slider styles edit */
 .bx-wrapper, .bx-viewport{
     height: 450px !important;
+}
+
+/* change main theme */
+#selector-theme{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.5);
+    width: 50px;
+    height: 100px;
+}
+
+#to-green,
+#to-red,
+#to-blue{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#to-green{
+    background: #235E3D;
+}
+
+#to-red{
+    background: #CA3413;
+}
+
+#to-blue{
+    background: #1F87CA;
 }
