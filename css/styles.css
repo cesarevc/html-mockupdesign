@@ -32,10 +32,8 @@ body{
     background: #235E3D;
     color: whitesmoke;
     text-align: center;
-    /* width: 400px; */
     height: 80px;
     margin-bottom: 20px;
-    /* float: left; */
 }
 
 #menu{
@@ -124,11 +122,6 @@ body{
     color: #333;
 }
 
-/* #sidebar h4 span{
-    background: rgb(198, 45, 45);
-    padding: 5px;
-} */
-
 #sidebar img{
     width: 100%;
     margin-bottom: 15px;
@@ -154,7 +147,7 @@ form input[type="email"]{
 form input[type="submit"]{
     background: greenyellow ;
     padding: 10px;
-    border: 1px solid whitesmoke;
+    border: 1px solid #333;
     margin-top: 10px;
     float: right;
     color: #333;
@@ -172,4 +165,9 @@ footer{
     padding-right: 22px;
     margin-top: 20px;
     line-height: 47px;
+}
+
+/* slider styles edit */
+.bx-wrapper, .bx-viewport{
+    height: 450px !important;
 }
