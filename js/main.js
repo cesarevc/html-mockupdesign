@@ -78,4 +78,27 @@ $(document).ready(() => {
          return false;
 
      });
+
+     //login falso
+
+     $("#login form").submit(() => {
+            var username = $("#form_name").val();
+            localStorage.setItem("Name", username);
+     });
+
+     var formname = localStorage.getItem("Name");
+
+     if (formname != null && formname != undefined) {
+        var about_parrafo = $("#about p");
+
+        about_parrafo.html("<br><strong>Bienvenido, " + formname + "</strong>. ");
+        about_parrafo.append("<a href'#' id='logout'>Cerrar sesión</a>");
+
+        $("#login").hide();
+
+        $("#logout").click(() => {
+            localStorage.clear();
+            location.reload();
+        });
+     }
 })
