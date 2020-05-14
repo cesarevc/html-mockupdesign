@@ -65,4 +65,17 @@ $(document).ready(() => {
     $("#to-blue").click(() => {
         theme.attr("href", "css/blue.css");
     });
+
+
+    //Scroll de abajo a arriba
+     $('.up').click((e) => {
+         e.preventDefault();
+
+         $('html, body').animate({
+            scrollTop:0
+         }, 5000);
+
+         return false;
+
+     });
 })
