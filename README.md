@@ -1,5 +1,5 @@
 # LANDING PAGE 
-_In this project made a mockup and interactive site_
+_This project was a html and css mockup practice add interactivity to the site using jquery_
 
 
 ## Built with 🛠️
