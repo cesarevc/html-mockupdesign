@@ -127,7 +127,9 @@
 
 form input[type="text"],
 form input[type="password"],
-form input[type="email"]{
+form input[type="email"],
+form input[type="number"],
+select{
     padding: 5px;
     border-radius: 2px;
     border: 1px solid grey;
@@ -233,4 +235,29 @@ h2{
     width: 30%;
     padding: 30px;
     margin: 0px auto;
+}
+
+
+/* formulario */
+
+#form-contact{
+    width: 90%;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form-contact label{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.form-error{
+    float: left;
+    font-size: 10px;
+    background: red;
+    color: whitesmoke;
+    padding: 10px;
+    width: 65%;
+    margin-top: 10px;
 }

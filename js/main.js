@@ -121,4 +121,18 @@ $(document).ready(() => {
         }, 1000);
     }
 
+    //form validation
+    if (window.location.href.indexOf('contact') > -1) {
+
+        $("form input[name='date']").datepicker({
+            dateFormat: 'dd-mm-yy'
+        });
+
+        $.validate({
+            lang: 'es',
+            // errorMessagePosition: 'top',
+            // scrollTopOnError: true
+        });
+    }
+
 })
