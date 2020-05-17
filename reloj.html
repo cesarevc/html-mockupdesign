@@ -9,13 +9,14 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link id="theme" rel="stylesheet" type="text/css" href="css/green.css" />
-
-    <!-- Slider -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <!-- Moment js  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/locale/es.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.css" />
+     <!-- Moment js  -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/locale/es.min.js"></script>
     <!-- Javascript -->
     <script src="./js/main.js"></script>
 </head>
@@ -44,24 +45,16 @@
             </nav>
         </header>
 
-        <!-- Slider -->
-        <div id="slider">
-            <div class="bxslider">
-                <div><img src="./img/1.jpg" title="1 roots"></div>
-                <div><img src="./img/2.jpg" title="2 roots"></div>
-                <div><img src="./img/3.jpg" title="3 roots"></div>
-                <div><img src="./img/4.jpg" title="4 roots"></div>
-                <div><img src="./img/mars.jpg" title="4 roots"></div>
-
-              </div>
-        </div>
+       
 
         <!-- Contenido -->
         <section id="content"> 
-            <div id="posts">
+            <div id="box">
                 
-                <!-- Posts load from json -->
-    
+                <!-- cargar Reloj -->
+                <div id="reloj">
+
+                </div>
             </div>
             <aside id="sidebar">
                 <div id="about">

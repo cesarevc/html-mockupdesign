@@ -107,7 +107,18 @@ $(document).ready(() => {
         });
     }
 
+    //accordeon
     if (window.location.href.indexOf('aboutme') > -1) {
         $("#acordeon").accordion();
     }
+
+    //reloj
+    if (window.location.href.indexOf('reloj') > -1) {
+        
+        setInterval(() => {
+            var reloj = moment().format("hh:mm:ss"); 
+            $("#reloj").html(reloj);
+        }, 1000);
+    }
+
 })
