@@ -10,33 +10,32 @@ _This project was a html and css mockup practice add interactivity to the site u
 * [jQuery-validation]()
 * [Moment js]()
 
- There are differents themes, you can choose between three (BLUE, RED AND DEFAULT GREEN), 
+ There are differents themes, you can choose between three (DEFAULT GREEN, RED and BLUE), 
 clicking on a three-square menu in the middle left.
 
-_GREEN THEME_
-![alt text](./img/greentheme.png)
 
-_BLUE THEME_
-![alt text](./img/bluetheme.png)
-
-_RED THEME_
-![alt text](./img/redtheme.png)
+_THEMES_
+![alt text](./img/themes.gif)
 
 ## MORE UTILITIES
 In main menu there are three more options than default 'INICIO'.
 
+_SESSION_  
+There are a false session using local storage.
+![alt text](./img/session.gif)
+
 _CLOCK_  
-Thre are a clock updating in real time, was made using moment and jQuery.
-![alt text](./img/clock.png)
+There are a clock updating in real time, was made using Moment and jQuery.
+![alt text](./img/clock.gif)
 
 _ABOUT ME_  
 There are an acordeon of jQuery-UI utilities.
-![alt text](./img/aboutme.png)
+![alt text](./img/aboutme.gif)
 
 
 _CONTACT_  
 There are a form validated with jQuery-validate
-![alt text](./img/contact.png)
+![alt text](./img/contact.gif)
 
 
 
